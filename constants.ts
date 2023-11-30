@@ -511,3 +511,11 @@ const countries = {
     "Kosovo",
   ],
 };
+
+let dropDownCountries = [];
+  countries[lang].forEach((val) => {
+    dropDownCountries.push({
+      label: val,
+      value: val,
+    });
+  });
